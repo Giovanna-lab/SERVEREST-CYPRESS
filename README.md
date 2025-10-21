@@ -1,5 +1,6 @@
 # SERVEREST-CYPRESS
 
+📝 Estrutura do projeto
 cypress/
 ├─ e2e/
 │  ├─ front/        # Testes de interface (Fluxos de usuário)
