@@ -1,18 +1,5 @@
 # SERVEREST-CYPRESS
 
-📝 Estrutura do projeto
-cypress/
-├─ e2e/
-│  ├─ front/        # Testes de interface (Fluxos de usuário)
-│  └─ api/          # Testes de API (CRUD de usuários, produtos e carrinhos)
-├─ support/
-│  ├─ pages/        # Page Objects para Front-end
-│  └─ commands.js
-cypress.config.js
-package.json
-README.md
-
-
 ⚙️ Pré-requisitos
 
 Node.js >= 18
