@@ -31,7 +31,7 @@ Executar:
 
 npx cypress open
 # ou
-npx cypress run --spec "cypress/e2e/front/*.cy.js"
+npx cypress run 
 
 API
 
@@ -41,13 +41,11 @@ CRUD de usuários
 
 CRUD de produtos (com criação aleatória de nomes)
 
-Operações com carrinhos de compras
-
 Executar:
 
 npx cypress open
 # ou
-npx cypress run --spec "cypress/e2e/api/*.cy.js"
+npx cypress run 
 
 🔧 Configurações importantes
 
