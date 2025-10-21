@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Pastas de Cypress que geram arquivos temporários
+cypress/videos/
+cypress/screenshots/
+
+# Arquivos de ambiente (senha, token, etc.)
+.env
+.env.local
+.env.*.local
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Pastas de build ou dist, se houver
+dist/
+build/
