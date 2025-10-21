@@ -1,6 +1,6 @@
 # SERVEREST-CYPRESS
 
-⚙️ Pré-requisitos
+##⚙️ Pré-requisitos
 
 Node.js >= 18
 
@@ -11,10 +11,10 @@ Cypress instalado globalmente ou no projeto
 Instalação das dependências:
 
 npm install
-# ou
+ou
 yarn install
 
-🚀 Executando os testes
+##🚀 Executando os testes
 Front-end
 
 Os testes de Front-end simulam todo o fluxo do usuário:
@@ -30,7 +30,7 @@ Limpeza da lista e logout
 Executar:
 
 npx cypress open
-# ou
+ou
 npx cypress run 
 
 API
@@ -44,10 +44,10 @@ CRUD de produtos (com criação aleatória de nomes)
 Executar:
 
 npx cypress open
-# ou
+ou
 npx cypress run 
 
-🔧 Configurações importantes
+##🔧 Configurações importantes
 
 Cadastro de usuário aleatório: todos os testes criam e usam usuários com email único gerado via timestamp para evitar conflitos.
 
@@ -55,7 +55,7 @@ Produtos aleatórios: nomes de produtos são gerados dinamicamente para garantir
 
 Autenticação: os testes de API obtêm um token JWT automaticamente para realizar operações protegidas.
 
-🧪 Tecnologias utilizadas
+##🧪 Tecnologias utilizadas
 
 Cypress
  - Automação de testes Front-end e API
@@ -64,7 +64,7 @@ JavaScript / Node.js
 
 Page Object Model para organização dos testes de interface
 
-📌 Observações
+##S📌 Observações
 
 O ambiente de teste usado é: Serverest API
 
